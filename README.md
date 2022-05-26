@@ -5,3 +5,5 @@
 
 [![Build Status](https://travis-ci.com/Trankvill/python-project-lvl1.svg?branch=master)](https://travis-ci.com/Trankvill/python-project-lvl1)
 
+[![Github Actions Status](https://github.com/hexlet-boilerplates/python-package/workflows/Python%20CI/badge.svg)](https://github.com/hexlet-boilerplates/python-package/actions)
+
