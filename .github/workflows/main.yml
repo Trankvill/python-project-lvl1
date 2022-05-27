@@ -1,24 +1,17 @@
-name: Python CI
 
+name: Python CI
 
 on:
   - push
   - pull_request
 
-
 jobs:
   build:
-  
     runs-on: ubuntu-latest
-    
-    
     strategy:
       matrix:
-      
         # we want to test our package on several versions of Python
         python-version: [3.8, 3.9]
-        
-        
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python ${{ matrix.python-version }}
@@ -30,9 +23,9 @@ jobs:
         run: |
           pip install poetry
           make install
-      - name: Run linter 
+      - name: Run linter and pytest
         run: |
-          make lint
+          make check
       - name: Test & publish code coverage
         uses: paambaati/codeclimate-action@v2.7.4
         env:
