@@ -25,6 +25,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       
+      # make depends on poetry
+      - name: Install dependencies
+        run: |
+          pip install poetry
+          make install
+      
       # Runs a linter
       - name: Run linter
         run: make lint
