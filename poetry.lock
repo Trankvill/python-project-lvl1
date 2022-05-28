@@ -8,8 +8,8 @@ python-versions = ">=3.3"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.10"
-content-hash = "77ddf2df65894867004408b8b225878c2b86d62f04d464e06400caacf189df15"
+python-versions = "^3.8"
+content-hash = "0ef04e3af9941caa36faede0dbb4e6a1e3e147c99e049b586b570c495a294804"
 
 [metadata.files]
 prompt = [
