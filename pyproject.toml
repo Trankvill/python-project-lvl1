@@ -8,11 +8,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-<<<<<<< HEAD
-python = "^3.9"
-=======
 python = "^3.8"
->>>>>>> 8c747a3 (update pyproject.toml)
 prompt = "^0.4.1"
 
 [tool.poetry.scripts]
