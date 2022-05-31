@@ -4,3 +4,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
 [![CI](https://github.com/Trankvill/python-project-lvl1/actions/workflows/main.yml/badge.svg)](https://github.com/Trankvill/python-project-lvl1/actions/workflows/main.yml)
+
+### Примеры скриптов проекта:
+[![asciicast](https://asciinema.org/a/498384.svg)](https://asciinema.org/a/498384)
+
