@@ -8,3 +8,9 @@
 ### Примеры скриптов проекта:
 [![asciicast](https://asciinema.org/a/498384.svg)](https://asciinema.org/a/498384)
 
+### Игра: "Калькулятор"
+[![asciicast](https://asciinema.org/a/498384.svg)](https://asciinema.org/a/498384)
+
+### Игра: "НОД"
+[![asciicast](https://asciinema.org/a/fnkJHvOJrUaDbJXXvlnkgLtGx.svg)](https://asciinema.org/a/fnkJHvOJrUaDbJXXvlnkgLtGx)
+
