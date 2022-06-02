@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.4"
+version = "0.1.5"
 description = ""
 authors = ["Konstantin Chupin <chupin.k@yandex.ru>"]
 packages = [
@@ -16,6 +16,7 @@ numexpr = "^2.8.1"
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:calc_games"
+brain-gcd = "brain_games.scripts.brain_gcd:gcd_games"
 
 [tool.poetry.dev-dependencies]
 
