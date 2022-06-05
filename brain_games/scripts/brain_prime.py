@@ -9,15 +9,15 @@ def random_num_and_check():
     """Generates a random number and performs a check for
     the simplicity of the number"""
 
-    r_num = randint(1, 100)
+    random_num = randint(1, 100)
     count = 0
-    for i in range(2, r_num // 2 + 1):
-        if (r_num % i) == 0:
+    for i in range(2, random_num // 2 + 1):
+        if (random_num % i) == 0:
             count += 1
     if count <= 0:
-        return r_num, 'yes'
+        return random_num, 'yes'
     else:
-        return r_num, 'no'
+        return random_num, 'no'
 
 
 def prime_games():
@@ -32,13 +32,14 @@ def prime_games():
     attempts = 3
 
     while attempts > 0:
-        var, cor = random_num_and_check()
-        print(f'Question: {var}')
+        random_var, correct_answer = random_num_and_check()
+        print(f'Question: {random_var}')
         answer = prompt.string('Your answer: ')
-        if answer == cor:
+        if answer == correct_answer:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{cor}'!")
+            print(f"'{answer}' is wrong answer ;(. "
+                  f"Correct answer was '{correct_answer}'!")
             print(f"Let's try again, {name}!")
             break
         attempts -= 1
