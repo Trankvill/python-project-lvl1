@@ -17,25 +17,26 @@ def progression_games():
 
     attempts = 3
     while attempts > 0:
-        num_1 = randint(1, 50)
-        diff = randint(1, 10)
-        list_t = []
-        a = 0
-        el = 0  # secret element by default
-        while a < 10:
-            a += 1
-            num_1 += diff
-            list_t.append(num_1)
-            el = choice(list_t)  # random selection of a secret element
-        list_t[list_t.index(el)] = '..'
-        el = str(el)
-        question = ' '.join(map(str, list_t))
+        random_num = randint(1, 50)
+        progression_step = randint(1, 10)
+        progression_list = []
+        progression_length = 0
+        secret_element = 0
+        while progression_length < 10:
+            progression_length += 1
+            random_num += progression_step
+            progression_list.append(random_num)
+            secret_element = choice(progression_list)
+        progression_list[progression_list.index(secret_element)] = '..'
+        secret_element = str(secret_element)
+        question = ' '.join(map(str, progression_list))
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
-        if answer == el:
+        if answer == secret_element:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{el}'.")
+            print(f"'{answer}' is wrong answer ;(. "
+                  f"Correct answer was '{secret_element}'.")
             print(f"Let's try again, {name}!")
             break
         attempts -= 1
