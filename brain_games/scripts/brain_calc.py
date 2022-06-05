@@ -8,10 +8,12 @@ from random import randint, choice
 
 
 def calc_games():
+    """generates a random mathematical expression and asks the user
+    for the result of this expression."""
+
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
-
     print("What is the result of the expression?")
 
     i = 3
@@ -22,14 +24,14 @@ def calc_games():
         operators = ['+', '-', '*']
         operator = choice(operators)
         expression = f'{num_1} {operator} {num_2}'
-        correct = ne.evaluate(f'{expression}')
+        cor = ne.evaluate(f'{expression}')
         print(f'Question: {num_1} {operator} {num_2}')
         answer = int(prompt.string("Your answer: "))
 
-        if correct == answer:
+        if cor == answer:
             print('Correct!')
         else:
-            print(f'{answer} is wrong answer ;(. Correct answer was {correct}.')
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{cor}'.")
             print(f"Let's try again, {name}!")
             break
         i -= 1
