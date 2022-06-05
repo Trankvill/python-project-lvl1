@@ -28,10 +28,11 @@ def progression_games():
             list_t.append(num_1)
             el = choice(list_t)  # random selection of a secret element
         list_t[list_t.index(el)] = '..'
+        el = str(el)
         question = ' '.join(map(str, list_t))
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
-        if int(answer) == el:
+        if answer == el:
             print('Correct!')
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{el}'.")
