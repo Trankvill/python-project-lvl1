@@ -6,6 +6,9 @@ from random import randint
 
 
 def main():
+    """Shows the player a random number. The player must enter the answer 'yes'
+    if the number is even, or 'no' if it is odd."""
+
     print("Welcome to the Brain Games!")
 
     name = prompt.string('May I have your name? ')
