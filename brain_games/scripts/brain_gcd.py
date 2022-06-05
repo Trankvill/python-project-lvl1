@@ -6,6 +6,9 @@ from random import randint
 
 
 def gcd_games():
+    """Shows the player two random numbers. The player must calculate and
+    output the greatest common divisor of these numbers."""
+
     print("Welcome to the Brain Games!")
     name = prompt.string("May I have your name? ")
     print(f"Hello, {name}!")
@@ -26,13 +29,13 @@ def gcd_games():
                 i_find = i
             list_correct.append(i_find)
 
-        corr = max(list_correct)
+        cor = max(list_correct)  # correct answer
         answer = prompt.string('Your answer: ')
 
-        if int(answer) == corr:
+        if int(answer) == cor:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{corr}'")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{cor}'.")
             print(f"Let's try again, {name}!")
             break
         attempts -= 1
