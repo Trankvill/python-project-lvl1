@@ -24,14 +24,15 @@ def calc_games():
         operators = ['+', '-', '*']
         operator = choice(operators)
         expression = f'{num_1} {operator} {num_2}'
-        cor = ne.evaluate(f'{expression}')
+        correct_answer = ne.evaluate(f'{expression}')
         print(f'Question: {num_1} {operator} {num_2}')
         answer = int(prompt.string("Your answer: "))
 
-        if cor == answer:
+        if correct_answer == answer:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{cor}'.")
+            print(f"'{answer}' is wrong answer ;(. "
+                  f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             break
         i -= 1
