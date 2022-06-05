@@ -5,6 +5,9 @@
 
 [![CI](https://github.com/Trankvill/python-project-lvl1/actions/workflows/main.yml/badge.svg)](https://github.com/Trankvill/python-project-lvl1/actions/workflows/main.yml)
 
+### Сборка и установка пакета проекта:
+[![asciicast](https://asciinema.org/a/BXmBIvXSYjHSmyBEBqXW5zxFa.svg)](https://asciinema.org/a/BXmBIvXSYjHSmyBEBqXW5zxFa)
+
 ### Игры проекта:
 
 ### Игра: "Проверка на чётность"
