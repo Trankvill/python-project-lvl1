@@ -41,7 +41,7 @@ def progression_games():
         attempts -= 1
 
         if attempts == 0:
-            print(f'Congratulations, {name}')
+            print(f'Congratulations, {name}!')
 
 
 if __name__ == '__main__':
