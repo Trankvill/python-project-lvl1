@@ -27,22 +27,15 @@ def even_games():
 
         if num % 2 == 0 and answer == 'yes' or num % 2 != 0 and answer == 'no':
             print('Correct!')
+
+        else:
+            print("'yes' is wrong answer ;(. Correct answer was 'no'")
+            print(f"Let's try again, {name}!")
+            break
         i -= 1
 
         if i == 0:
             print(f'Congratulations, {name}!')
-
-        elif num % 2 != 0 and answer == 'yes':
-            print("'yes' is wrong answer ;(. Correct answer was 'no'")
-            print(f"Let's try again, {name}!")
-            i = 0
-            break
-
-        elif num % 2 == 0 and answer == 'no':
-            print("'no is wrong answer ;(. Correct anser was 'yes'.")
-            print(f"Let's try again, {name}!")
-            i = 0
-            break
 
 
 if __name__ == '__main__':
