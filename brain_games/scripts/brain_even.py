@@ -5,7 +5,7 @@ import prompt
 from random import randint
 
 
-def main():
+def even_games():
     """Shows the player a random number. The player must enter the answer 'yes'
     if the number is even, or 'no' if it is odd."""
 
@@ -46,4 +46,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    even_games()
