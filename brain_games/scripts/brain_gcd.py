@@ -29,13 +29,14 @@ def gcd_games():
                 i_find = i
             list_correct.append(i_find)
 
-        cor = max(list_correct)  # correct answer
+        correct_answer = max(list_correct)
         answer = prompt.string('Your answer: ')
 
-        if int(answer) == cor:
+        if int(answer) == correct_answer:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{cor}'.")
+            print(f"'{answer}' is wrong answer ;(. "
+                  f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             break
         attempts -= 1
