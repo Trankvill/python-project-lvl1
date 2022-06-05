@@ -36,7 +36,7 @@ def progression_games():
             print('Correct!')
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{el}'.")
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             break
         attempts -= 1
 
