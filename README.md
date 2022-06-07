@@ -8,22 +8,22 @@
 [![CI](https://github.com/Trankvill/python-project-lvl1/actions/workflows/main.yml/badge.svg)](https://github.com/Trankvill/python-project-lvl1/actions/workflows/main.yml)
 
 ### Сборка и установка пакета проекта:
-[![asciicast](https://asciinema.org/a/BXmBIvXSYjHSmyBEBqXW5zxFa.svg)](https://asciinema.org/a/BXmBIvXSYjHSmyBEBqXW5zxFa)
+[![asciicast](https://asciinema.org/a/DvWqEN8Ab8RqncXiCExhRwJpT.svg)](https://asciinema.org/a/DvWqEN8Ab8RqncXiCExhRwJpT)
 
 ### Игры проекта:
 
 ### Игра: "Проверка на чётность"
-[![asciicast](https://asciinema.org/a/BgXdMvaK69QPWlSWELreUydcn.svg)](https://asciinema.org/a/BgXdMvaK69QPWlSWELreUydcn)
+[![asciicast](https://asciinema.org/a/Gs4IPlYLTVR0Zdhb7lOYc3iBC.svg)](https://asciinema.org/a/Gs4IPlYLTVR0Zdhb7lOYc3iBC)
 
 ### Игра: "Калькулятор"
-[![asciicast](https://asciinema.org/a/qAbox9VwDRkXDQS0wlw0OtF0K.svg)](https://asciinema.org/a/qAbox9VwDRkXDQS0wlw0OtF0K)
+[![asciicast](https://asciinema.org/a/YgSL2SEfZsw0TgOhLOsCCUp5A.svg)](https://asciinema.org/a/YgSL2SEfZsw0TgOhLOsCCUp5A)
 
 ### Игра: "НОД"
-[![asciicast](https://asciinema.org/a/fnkJHvOJrUaDbJXXvlnkgLtGx.svg)](https://asciinema.org/a/fnkJHvOJrUaDbJXXvlnkgLtGx)
+[![asciicast](https://asciinema.org/a/QC20aI7kSMf0jTYfnCzBbm4Kz.svg)](https://asciinema.org/a/QC20aI7kSMf0jTYfnCzBbm4Kz)
 
 ### Игра: "Арифметическая прогрессия"
-[![asciicast](https://asciinema.org/a/3h6LetSgQqVX1vzQIlEEEAiFY.svg)](https://asciinema.org/a/3h6LetSgQqVX1vzQIlEEEAiFY)
+[![asciicast](https://asciinema.org/a/7DkZcaY4oZbPg6dwPDjUXezft.svg)](https://asciinema.org/a/7DkZcaY4oZbPg6dwPDjUXezft)
 
 ### Игра: "Простое число"
-[![asciicast](https://asciinema.org/a/AGOPG66lBVg7pMOjfYgQSl9Tk.svg)](https://asciinema.org/a/AGOPG66lBVg7pMOjfYgQSl9Tk)
+[![asciicast](https://asciinema.org/a/zisRk6AFw9ff4Zn2xW4asWJbq.svg)](https://asciinema.org/a/zisRk6AFw9ff4Zn2xW4asWJbq)
 
