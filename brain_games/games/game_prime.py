@@ -5,7 +5,7 @@ from random import randint
 GAME_CONDITION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 START = 1
-FINISH = 100
+FINISH = 2
 
 
 def get_question():
@@ -25,7 +25,9 @@ def get_game():
     for i in range(2, r_num // 2 + 1):
         if (r_num % i) == 0:
             count += 1
-    if count <= 0:
+    if r_num == 1:
+        result = 'no'
+    elif count <= 0:
         result = 'yes'
     else:
         result = 'no'
