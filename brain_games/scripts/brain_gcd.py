@@ -2,13 +2,13 @@
 
 from brain_games.engine import launch_game
 
-from brain_games.games import game_gcd
+from brain_games.games import gcd
 
 
 def main():
     """Starts the 'Greatest common divisor' game"""
 
-    launch_game(game_gcd)
+    launch_game(gcd)
 
 
 if __name__ == '__main__':

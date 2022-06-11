@@ -1,14 +1,14 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 from brain_games.engine import launch_game
 
-from brain_games.games import game_calc
+from brain_games.games import calc
 
 
 def main():
     """Starts the 'Calculator' game"""
 
-    launch_game(game_calc)
+    launch_game(calc)
 
 
 if __name__ == '__main__':
