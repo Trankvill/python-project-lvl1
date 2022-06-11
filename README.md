@@ -5,23 +5,23 @@
 
 [![CI](https://github.com/Trankvill/python-project-lvl1/actions/workflows/main.yml/badge.svg)](https://github.com/Trankvill/python-project-lvl1/actions/workflows/main.yml)
 
-### Сборка и установка пакета проекта:
-[![asciicast](https://asciinema.org/a/DvWqEN8Ab8RqncXiCExhRwJpT.svg)](https://asciinema.org/a/DvWqEN8Ab8RqncXiCExhRwJpT)
+### Building and installing the project package:
+[![asciicast](https://asciinema.org/a/lc31cXLpwk6kYzHKn8B9NEoLo.svg)](https://asciinema.org/a/lc31cXLpwk6kYzHKn8B9NEoLo)
 
-### Игры проекта:
+### Project games:
 
-### Игра: "Проверка на чётность"
-[![asciicast](https://asciinema.org/a/Gs4IPlYLTVR0Zdhb7lOYc3iBC.svg)](https://asciinema.org/a/Gs4IPlYLTVR0Zdhb7lOYc3iBC)
+### Game: "Parity check"
+[![asciicast](https://asciinema.org/a/BHu7h0yam6SBMbBbK4TeuVjpY.svg)](https://asciinema.org/a/BHu7h0yam6SBMbBbK4TeuVjpY)
 
-### Игра: "Калькулятор"
-[![asciicast](https://asciinema.org/a/YgSL2SEfZsw0TgOhLOsCCUp5A.svg)](https://asciinema.org/a/YgSL2SEfZsw0TgOhLOsCCUp5A)
+### Game: "Calculator"
+[![asciicast](https://asciinema.org/a/UaP53NbWmoAqmZ8zLz5QD7vFt.svg)](https://asciinema.org/a/UaP53NbWmoAqmZ8zLz5QD7vFt)
 
-### Игра: "НОД"
-[![asciicast](https://asciinema.org/a/QC20aI7kSMf0jTYfnCzBbm4Kz.svg)](https://asciinema.org/a/QC20aI7kSMf0jTYfnCzBbm4Kz)
+### Game: "GCD"
+[![asciicast](https://asciinema.org/a/lNX1dCMLF1dSbzYptp40dn1V7.svg)](https://asciinema.org/a/lNX1dCMLF1dSbzYptp40dn1V7)
 
-### Игра: "Арифметическая прогрессия"
-[![asciicast](https://asciinema.org/a/7DkZcaY4oZbPg6dwPDjUXezft.svg)](https://asciinema.org/a/7DkZcaY4oZbPg6dwPDjUXezft)
+### Game: "Arithmetic progression"
+[![asciicast](https://asciinema.org/a/ySRM64k78pRDIzK12X3Wbfui8.svg)](https://asciinema.org/a/ySRM64k78pRDIzK12X3Wbfui8)
 
-### Игра: "Простое число"
-[![asciicast](https://asciinema.org/a/zisRk6AFw9ff4Zn2xW4asWJbq.svg)](https://asciinema.org/a/zisRk6AFw9ff4Zn2xW4asWJbq)
+### Game: "Prime number"
+[![asciicast](https://asciinema.org/a/h7crGJ0EWtCqblf8JVC4n1cp9.svg)](https://asciinema.org/a/h7crGJ0EWtCqblf8JVC4n1cp9)
 
