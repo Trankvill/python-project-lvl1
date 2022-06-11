@@ -11,14 +11,11 @@ FINISH = 100
 def is_prime(r_num):
     """Checks whether a random number is prime"""
 
-    count = 0
+    count = 2
 
-    for i in range(2, r_num // 2 + 1):
-        if (r_num % i) == 0:
-            count += 1
-    if r_num == 1:
-        return False
-    elif count <= 0:
+    while r_num % count != 0:
+        count += 1
+    if r_num == count:
         return True
     else:
         return False
