@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from random import randint, choice
+from random import randint
 
 GAME_RULE = 'What number is missing in the progression?'
 
@@ -8,22 +8,23 @@ START = 1
 FINISH = 50
 START_DIFFERENCE = 1
 FINISH_DIFFERENCE = 10
+LENGTH_LEFT_BORDER = 5
+LENGTH_RIGHT_BORDER = 10
 
 
-def get_arithmetic_sequence(arithmetic_sequence, length, r_num, difference):
+def get_arithmetic_sequence(initial_term, difference, length):
     """Creates an arithmetic sequence"""
-
-    while length < 10:
-        length += 1
-        r_num += difference
-        arithmetic_sequence.append(r_num)
+    arithmetic_sequence = [initial_term]
+    for i in range(length):
+        initial_term += difference
+        arithmetic_sequence.append(initial_term)
     return arithmetic_sequence
 
 
-def arithmetic_sequence_str(arithmetic_sequence, secret_element):
+def stringify_sequence(arithmetic_sequence, random_index):
     """Creates a string representation of an arithmetic sequence"""
 
-    arithmetic_sequence[arithmetic_sequence.index(secret_element)] = '..'
+    arithmetic_sequence[random_index] = '..'
     string_of_arithmetic_sequence = ' '.join(map(str, arithmetic_sequence))
     return string_of_arithmetic_sequence
 
@@ -31,13 +32,15 @@ def arithmetic_sequence_str(arithmetic_sequence, secret_element):
 def get_round():
     """Calculates the correct answer"""
 
-    r_num = randint(START, FINISH)
+    initial_term = randint(START, FINISH)
     difference = randint(START_DIFFERENCE, FINISH_DIFFERENCE)
-    arithmetic_sequence = []
-    length = 0
-    secret_element = choice(
-        get_arithmetic_sequence(arithmetic_sequence, length, r_num, difference)
-    )
-    question = arithmetic_sequence_str(arithmetic_sequence, secret_element)
+    length = randint(LENGTH_LEFT_BORDER, LENGTH_RIGHT_BORDER)
+    arithmetic_sequence = get_arithmetic_sequence(
+        initial_term,
+        difference,
+        length)
+    random_index = randint(0, len(arithmetic_sequence) - 1)
+    secret_element = arithmetic_sequence[random_index]
+    question = stringify_sequence(arithmetic_sequence, random_index)
     correct_answer = str(secret_element)
     return correct_answer, question
