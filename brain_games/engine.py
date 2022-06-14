@@ -20,7 +20,7 @@ def launch_game(game):
         correct_answer, question = game.get_round()
         print(f'Question: {question}')
 
-        answer = prompt.string('Your answer: ')
+        answer = input('Your answer: ')
 
         if answer == correct_answer:
             print('Correct!')
