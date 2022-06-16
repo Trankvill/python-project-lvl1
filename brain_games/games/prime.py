@@ -2,7 +2,7 @@
 
 from random import randint
 
-GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 START = 1
 FINISH = 100
@@ -15,10 +15,7 @@ def is_prime(r_num):
 
     while r_num % count != 0:
         count += 1
-    if r_num == count:
-        return True
-    else:
-        return False
+    return r_num == count
 
 
 def get_round():

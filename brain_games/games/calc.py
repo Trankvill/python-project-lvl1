@@ -4,7 +4,7 @@ import numexpr as ne
 
 from random import randint, choice
 
-GAME_RULE = 'What is the result of the expression?'
+RULES = 'What is the result of the expression?'
 
 START = 1
 FINISH = 100

@@ -2,7 +2,7 @@
 
 from random import randint
 
-GAME_RULE = 'What number is missing in the progression?'
+RULES = 'What number is missing in the progression?'
 
 START = 1
 FINISH = 50
@@ -21,10 +21,10 @@ def get_arithmetic_sequence(initial_term, difference, length):
     return arithmetic_sequence
 
 
-def stringify_sequence(arithmetic_sequence, random_index):
+def stringify_sequence(arithmetic_sequence, hidden_term_index):
     """Creates a string representation of an arithmetic sequence"""
 
-    arithmetic_sequence[random_index] = '..'
+    arithmetic_sequence[hidden_term_index] = '..'
     string_of_arithmetic_sequence = ' '.join(map(str, arithmetic_sequence))
     return string_of_arithmetic_sequence
 
