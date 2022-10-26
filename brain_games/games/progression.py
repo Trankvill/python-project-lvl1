@@ -30,7 +30,7 @@ def stringify_sequence(arithmetic_sequence, hidden_term_index):
 
 
 def get_round():
-    """Calculates the correct answer (arithmetic progression)"""
+    """Calculates the correct answer (arithmetic progression)."""
 
     initial_term = randint(START, FINISH)
     difference = randint(START_DIFFERENCE, FINISH_DIFFERENCE)
