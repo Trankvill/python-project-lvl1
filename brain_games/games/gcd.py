@@ -22,7 +22,7 @@ def get_gcd(min_r_num, max_r_num):
 
 
 def get_round():
-    """Calculates the correct answer"""
+    """Calculates the correct answer (GCD)"""
 
     r_num_1 = randint(START, FINISH)
     r_num_2 = randint(START, FINISH)
