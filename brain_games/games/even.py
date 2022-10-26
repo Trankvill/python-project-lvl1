@@ -18,7 +18,7 @@ def is_even(r_num):
 
 
 def get_round():
-    """Calculates the correct answer"""
+    """Calculates the correct answer(even)"""
 
     r_num = randint(START, FINISH)
 
