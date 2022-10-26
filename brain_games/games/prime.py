@@ -19,7 +19,7 @@ def is_prime(r_num):
 
 
 def get_round():
-    """Calculates the correct answer"""
+    """Calculates the correct answer (prime number)"""
 
     r_num = randint(START, FINISH)
 
